@@ -1,0 +1,103 @@
+/*FOOTER 1*/
+.piePagina{
+    clear: both;
+    background: rgb(230, 142, 142);
+    margin-top: 40px;
+    color: white;
+    padding: 10px 0;
+    left: 0%;
+    z-index: 100;
+    align-items: center;
+    position: relative;
+    margin-top:1000px;
+    
+}
+.piePagina ul{
+    list-style: none;
+    text-align: center;
+    
+}
+.piePagina a{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+   
+}
+.piePagina p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    
+}
+/*FOOTER 1*/
+
+.caja{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+}
+
+.fila{
+    width:325px;
+    height: 200px;
+    font-size: 100%;
+    margin-top: 135px;
+    margin-left: 25px;
+    padding: px;
+    text-align: justify;
+    
+}
+
+.cacho1{
+    width: 235px;
+    height: 150px;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 0px;
+}
+.casita{
+    width: 260px;
+    height: 250px;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 0px;
+}
+.perrito2{
+    width: 230px;
+    height: 220px;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 0px;
+}
+
+.videito{
+    width: 300px;
+    height: 220px;
+    float: center;
+    margin-top: 150px;
+    padding-left:320px ;
+    padding-right: 0px;
+}
+.parrafo1{
+    width: 1050px;
+    height: 800px;
+    float: center;
+    margin-top: 200px;
+    padding-left:95px ;
+    padding-right: 0px;
+    text-align: justify;
+}
+/*botones INICIO*/
+.boto a{
+    margin-top:-900px;
+    margin-bottom: 30px;
+    margin: 500px 50px;
+    padding: 5px 30px;
+    border-radius: 0px;
+    float:left;
+    text-align: center;
+    margin-left: 300px;
+}
+/*botones FINAL*/

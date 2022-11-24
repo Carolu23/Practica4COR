@@ -1,0 +1,239 @@
+/*Todo / Cabecera / Pie de pagina INICIO*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:wght@200&display=swap');
+*{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*Cabecera inicio*/
+.cabecera{
+    padding: 30px 10%;
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.navegador{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegador h1{
+    letter-spacing: 5px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+.navegador ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 150%;
+}
+
+.navegador ul li{
+    display: inline-block;
+}
+
+.navegador ul li a{
+    display: block;
+    padding: 10px 17px;
+
+}
+/*Cabecera final*/
+
+/*FOOTER 1*/
+.piePagina{
+    clear: both;
+    background: rgb(230, 142, 142);
+    margin-top: 35px;
+    color: white;
+    padding: 10px 0;
+    left: 0%;
+    z-index: 100;
+    align-items: center;
+    position: relative;
+}
+.piePagina ul{
+    list-style: none;
+    text-align: center;
+}
+.piePagina a{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    
+}
+.piePagina p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+
+
+/*Contenido INICIO*/
+.contenido{
+    width: 90%;
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+/*Home INICIO*/
+.home{
+    width: 60%;
+    float: left;
+    margin-bottom: 20px;
+    font-size: 120%;
+    line-height: 250%;
+    text-align: justify;
+}
+
+    /*presentacion INICIO*/
+    .home .presentacion{
+        width: 100%;
+        padding-bottom: 20px;
+        float: left;
+    }
+    .home .presentacion p{
+        margin-bottom:0px;
+    }
+    .home .presentacion a{
+        align-items: center;
+        text-decoration: none;
+        margin: 20px 50px;
+        padding: 5px 30px;
+        border-radius: 20px;
+        float: center;
+    }
+    /*presentacion FINAL*/
+
+/*MAS COSAS*/
+    .botones .mascosas{
+        width: 40%;
+        padding-bottom: 20px;
+        float: right;
+    }
+    .botones .mascosas p{
+        margin-bottom: 0;
+    }
+    .botones .mascosas a{ 
+        align-items: center;
+        text-decoration: none;
+        margin: 50px 50px;
+        padding: 5px 30px;
+        border-radius: 20px;
+        float: left;    
+        
+    }
+/*FIN DE MAS COSAS*/
+
+    /*historia gatos INICIO*/
+    .home .historiagat{
+        width: 90%;
+        float: left;
+    }
+    .home .historiagat h2{
+        margin-bottom: 0px;
+    }
+    /*historia gatos FINAL*/
+
+/*Home FINAL*/
+
+
+/*Skills INICIO*/
+.skills{
+    width: 40%;
+    float: left;
+    margin-left:200px;
+    margin-bottom: 20px;
+}
+.skills img{
+    max-width: 80%;
+}
+.items{
+    margin-top: 40px;
+}
+.items .skill-item{
+    max-width: 100%;
+    margin-bottom: 25px;
+}
+.items .skill-item h5{
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+   
+    text-transform: capitalize;
+}
+.items .skill-item .progress{
+    height: 7px;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+
+}
+.items .skill-item .progress .progress-in{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 4px;
+}
+.items .skill-item .progress .skill-percent{
+    position: absolute;
+    margin-right: 300px;
+    right: 0;
+    top: -40px;
+    font-weight: 400;
+    line-height: 40px;
+}
+/*Skills FINAL*/
+
+/*imagen corazones
+.image1{
+    width: 200px;
+    height: 240px;
+    float: left;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+*/
+.image2{
+    width: 235px;
+    height: 150px;
+    float: right;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+aside{
+    width: 0px;
+    height: 0px;
+    float:right;
+    overflow:visible;
+    margin-left: 90%;
+    margin-bottom: 0px;
+    margin-right: -180px;
+    position:static;
+    
+}
+
+.KFC{
+    width: 270px;
+    height: 450px;
+    float: left;
+}
+.ropape{
+    width: 270px;
+    height: 380px;
+    float: left;
+
+}

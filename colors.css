@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:wght@200&display=swap');
+
+
+/*Cabecera inicio*/
+.cabecera{
+    background: rgb(230, 142, 142);
+    color: white;
+}
+.cabecera a{
+    color: white;
+    text-decoration: none;
+}
+
+/*Pie de pagina inicio*/
+.piePagina{
+    background: rgb(230, 142, 142);
+    color: white;
+}
+/*Home INICIO*/
+.home ul{
+    color: red;
+}
+ /*presentacion INICIO*/
+ .home .presentacion a{
+    color: white;
+    background-color: rgb(203, 132, 132);
+}
+/*MAS COSAS*/
+.botones .mascosas a{ 
+    color: white;
+    background-color: rgb(203, 132, 132);
+}
+ /*historia gatos INICIO*/
+ .home .historiagat p{
+    color: black;
+}
+
+/*Skills INICIO*/
+.items .skill-item h5{
+    color: black;
+}
+.items .skill-item .progress{
+    background-color: gray;
+    }
+.items .skill-item .progress .progress-in{
+    background-color: rgb(235, 79, 79);
+}
+.items .skill-item .progress .skill-percent{
+    color: black;
+}
